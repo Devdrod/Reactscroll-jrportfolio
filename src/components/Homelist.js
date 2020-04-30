@@ -13,12 +13,12 @@ export class Homelist extends Component {
         return (
            
   
-<div className="flexbox-container flexbox-itemlist" >
+<div className="flexbox-container flexbox-itemlist" id="homelist" >
 
        
 <div className="home-list">
  
-    <p style={{paddingBottom:"65px"}}>For the past year I've been learning and making personal projects based on front-end technologies</p>
+    <p style={{paddingBottom:"57px"}}>For the past year I've been learning and making personal projects based on front-end technologies</p>
         <li>
           100% proactive
         </li>
@@ -30,12 +30,13 @@ export class Homelist extends Component {
         </li>
         <li>
          Good communication skills   </li>
-        <li>
-          Ready to start working now!
-        </li>    
+    
         <li>
            Located on San Jose, Costa Rica
         </li>
+        <li>
+          Ready to start working now!
+        </li>    
         </div>
     </div>
 

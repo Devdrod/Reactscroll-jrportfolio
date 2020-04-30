@@ -8,10 +8,10 @@ export class Skills extends Component {
     render() {
         return (
            
-<div className="flexbox-container">
-<div className="flexbox-skill skills-item">
-
-<h1 style={{textAlign:'center'}}> Tools &#38; Languages </h1>
+<div  id="skills" className="flexbox-container">
+<div className="flexbox-skill">
+<div className="skills-item"> 
+<h1 style={{textAlign:'center',color:'#131C3A'}}> Skills &#38; Tools </h1>
 <br/>
 
 
@@ -19,32 +19,71 @@ export class Skills extends Component {
 
 <div className="column">
 
+<h2>Front-end</h2>
+<br/>
 <li>HTML5</li>
 <li>CSS</li>
+<li>JavaScript</li>
 <li>SAS</li>
-<li>Bootstrap4</li>
+
 </div>
 
 <div className="column">
 
 
-<li>JavaScript</li>
+
+<h2>Libraries</h2>
+<br/>
 <li>React.js</li>
-<li>Gatsby.js</li>
+
 
 
 </div>
 
-<div className="column" style={{borderStyle:"none"}}>
+<div className="column" >
+<h2>Frameworks</h2>
+<br/>
+<li>Gatsby.js</li>
+<li>Bootstrap-4</li>
+</div>
 
-<li>Mongodb</li>
+
+<div className="column" >
+<h2>Back-end</h2>
+<br/>
 <li>Express.js</li>
 <li>Node.js</li>
 </div>
 
+<div className="column" >
+<h2>DB</h2>
+<br/>
+<li>Mongodb</li>
 </div>
+
+
+
+
+<div className="column" style={{borderStyle:"none"}}>
+
+<h2>V. Controller</h2>
+<br/>
+<li>Git</li>
+
 </div>
+
 </div>
+
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
   )
 }
 }
