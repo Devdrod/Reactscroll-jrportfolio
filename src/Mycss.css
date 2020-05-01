@@ -302,7 +302,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-width: 1px;
     width: 800px;
-    font-family:'Lato';
+    font-family:'Lato', sans-serif;
     position: static;
     margin-top: -35px;
     bottom: 50px;
@@ -488,7 +488,7 @@ margin-top: 30px;
 }
 
 .flexbox-contact h2{
-  font-family: 'Lato';
+  font-family:'Lato', sans-serif;
   padding-bottom: 65px;
   padding-top: 55px;
   border-top-style: solid;

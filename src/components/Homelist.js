@@ -1,8 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-
-import {Myphoto} from '../images/Myphoto.png'
-
 import '../../src/Mycss.css'
 
 
@@ -22,9 +18,6 @@ export class Homelist extends Component {
         <li>
           100% proactive
         </li>
-        {/* <li>
-         Team player
-        </li> */}
         <li>
            Bilingual English/Spanish
         </li>
