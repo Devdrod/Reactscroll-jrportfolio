@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d build"
   },
   
-  "homepage": "https://devdrod.github.io/Reactscroll-jrportfolio/",
+  "homepage": "https://davidrodriguezdev.com",
   
   "eslintConfig": {
     "extends": "react-app"
