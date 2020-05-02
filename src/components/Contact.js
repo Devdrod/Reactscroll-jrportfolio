@@ -34,7 +34,7 @@ message,
                 const body = JSON.stringify(newContact);
 
                 const res = await axios.post(
-                 "/api/contacts/",
+                 "/api/contacts",
                   body,
                   config
                 )
