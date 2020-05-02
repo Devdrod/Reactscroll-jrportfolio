@@ -34,7 +34,7 @@ message,
                 const body = JSON.stringify(newContact);
 
                 const res = await axios.post(
-                 "/api/contacts",
+                 "https://myportfoliobackend2020.herokuapp.com/api/contacts",
                   body,
                   config
                 )
