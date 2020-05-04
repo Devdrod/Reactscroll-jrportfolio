@@ -2,7 +2,7 @@
   "name": "drod2020",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://myportfoliobackend2020.herokuapp.com",
+  "proxy": "http://localhost:5000",
   "homepage": "https://davidrodriguezdev.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -42,4 +42,7 @@
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
+
+
+  
 }
