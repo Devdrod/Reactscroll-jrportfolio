@@ -7,11 +7,11 @@ function Navbarcopy() {
 
 const [isOpen, setOpen] = useState(false)
 
- const handleClick = () => setOpen({
-    isOpen: true
- })
+//  const handleClick = () => setOpen({
+//     isOpen: true
+//  })
 
-    console.log(handleClick)
+//  console.log(handleClick)
 
     return (
         <nav className="sticky" >

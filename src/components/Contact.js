@@ -11,7 +11,7 @@ const Contact = () => {
         const { email, message } = formData;
         
         const onChange = e => setFormData({ ...formData,
-             [e.target.name] :  [e.target.value]});
+             [e.target.name] :  e.target.value });
     
         
         const onSubmit = async e => {
