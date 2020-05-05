@@ -34,9 +34,10 @@ message,
                 const body = JSON.stringify(newContact);
 
                 const res = await axios.post(
-                    <script type="text/javascript" src="https://myportfoliobackend2020.herokuapp.com/api/contacts/"></script>,
+                  "https://myportfoliobackend2020.herokuapp.com/api/contacts/",
+                  config,
                   body,
-                  config
+                 
                 )
                 console.log(res)
                 setFormData({ ...formData, email:'' , message:''})
